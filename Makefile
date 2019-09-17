@@ -6,9 +6,10 @@ FLAGS = -Wall -Werror -Wextra
 
 INCLUDES = -I .
 
-SRC = solve.c validate.c lst_tet.c t_tet.c fillit.c square.c ft_bzero.c \
-	  ft_memalloc.c ft_closesqrt.c ft_memcpy.c ft_lstdel.c ft_memset.c ft_lstnew.c \
-	  ft_putendl.c ft_lstpushback.c ft_strnew.c
+SRC = src/solve.c src/validate.c src/lst_tet.c src/t_tet.c src/fillit.c \
+	src/square.c src/ft_bzero.c src/ft_memalloc.c src/ft_closesqrt.c \
+	src/ft_memcpy.c src/ft_lstdel.c src/ft_memset.c src/ft_lstnew.c \
+	src/ft_putendl.c src/ft_lstpushback.c src/ft_strnew.c
 
 OBJ = $(SRC:.c=.o)
 
